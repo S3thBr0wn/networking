@@ -1,0 +1,60 @@
+Router>ena
+Router>enable 
+Router#show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol 
+FastEthernet0/0        unassigned      YES unset  administratively down down 
+FastEthernet0/1        unassigned      YES unset  administratively down down 
+Vlan1                  unassigned      YES unset  administratively down down
+Router#con
+Router#conf
+Router#config t
+Router#config
+Router#configure t
+Router#configure terminal 
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#
+Router(config)#interf
+Router(config)#interface F
+Router(config)#interface FastEthernet 0/0
+Router(config-if)##ip address 192.168.2.1 255.255.255.^Z
+Router#
+%SYS-5-CONFIG_I: Configured from console by console
+^Z
+Router#clear
+% Incomplete command.
+Router#con
+Router#con
+Router#conf
+Router#configure t
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#interf
+Router(config)#interface F
+Router(config)#interface FastEthernet 0/0
+Router(config-if)#ip address 192.168.2.1 255.255.255.0
+Router(config-if)#no 
+Router(config-if)#no 
+Router(config-if)#no shu
+Router(config-if)#no shutdown 
+Router(config-if)#no shutdown
+
+Router(config-if)#
+%LINK-5-CHANGED: Interface FastEthernet0/0, changed state to up
+change in
+Router(config-if)#exit
+Router(config)#interface FastEthernet 0/1
+Router(config-if)#ip address 192.168.2.1 255.255.255.0
+% 192.168.2.0 overlaps with FastEthernet0/0
+Router(config-if)#ip add
+Router(config-if)#ip address 
+Router(config-if)#ip address dhcp 
+Router(config-if)#ip address 192.168.1.1 255.255.255.0
+Router(config-if)#ip address 192.168.2.1 255.255.255.0
+% 192.168.2.0 overlaps with FastEthernet0/0
+Router(config-if)#interface FastEthernet 0/0
+Router(config-if)#ip address 192.168.1.1 255.255.255.0
+Router(config-if)#ip 
+Router(config-if)#ip a
+Router(config-if)#ip add
+Router(config-if)#ip address 192.168.2.1 255.255.255.0
+Router(config-if)#
